@@ -71,7 +71,9 @@ directions = ["N","N","N","N","N","E","E","E","E","E"] == "Finish"
 
 6. If you find yourself still in the maze after using all the moves, you should return Lost.
 
+## Not sure where to begin?
 
+- Try finding the start point! What's the index of the number 2 in the maze array?
 
 ## Example tests
 
@@ -105,3 +107,5 @@ def example_tests():
         test.assert_equals(maze_runner(maze,["N","E","E","E","E"]), "Lost")
 
 ```
+
+Kata Sensei: adrian.eyre [Codewars](https://www.codewars.com/kata/58663693b359c4a6560001d6)
